@@ -1,0 +1,14 @@
+│ 
+├── tests/ 
+│ ├── __init__.py 
+│ ├── test_login.py # Login test cases │ └── test_products.py # Product test cases │ 
+├── pages/ 
+│ ├── __init__.py 
+│ ├── base_page.py # Base page with common methods │ ├── login_page.py # Login page object │ └── products_page.py # Products page object │ 
+├── utils/ # Optional: utility functions │ └── config.py 
+│ 
+├── reports/ # Test execution reports │ 
+├── screenshots/ # Screenshots on failure  (optional) 
+│ 
+├── conftest.py # pytest fixtures (setup/ teardown) 
+├── requirements.txt # Python dependencies ├── pytest.ini # pytest configuration └── README.md # Documentation
